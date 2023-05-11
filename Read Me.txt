@@ -17,8 +17,8 @@ Citation Request:
 
 4. Framework: Jupyter Notebook (anaconda3)
 
-5. How to run the code:	install Jupyter Notebook, open the source file "Task1a" via the framework, save the dataset "data_banknote_authentication" 
-			to your working directory, and run the file. Open the second file "Task1a-ANN version 3" and run
+5. How to run the code:	install Jupyter Notebook, open the source files "filename.ipynb" via the framework, save the dataset "data_banknote_authentication" 
+			to your working directory, and run the file. 
 
 6. Number of instances: 1372
 
