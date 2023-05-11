@@ -1,0 +1,36 @@
+Citation Request:
+	Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. 
+	Irvine, CA: University of California, School of Information and Computer Science.
+------------------------------------------------------------------------------------------------------
+
+1. Title: 	Banknote authentication using classification machine learning techniques
+
+2. Introduction: 
+
+	It employs 3 classification algorithms; K-Nearest Neighbor, Artificial Neural Network, and Azure Machine Learning Designer 
+	to build models that predicts whether a banknote is authentic or forged given a series of extracted measures
+	(Variance, Skewness, Kurtosis, and Entropy) from a Wavelet Transformed images of both types of banknote.
+
+3. Data source:	 The dataset is public, available for research.
+		It was obtained from UCI Machine Learning Repository
+		https://archive.ics.uci.edu/ml/datasets/banknote+authentication
+
+4. Framework: Jupyter Notebook (anaconda3)
+
+5. How to run the code:	install Jupyter Notebook, open the source file "Task1a" via the framework, save the dataset "data_banknote_authentication" 
+			to your working directory, and run the file. Open the second file "Task1a-ANN version 3" and run
+
+6. Number of instances: 1372
+
+7. Number of attributes: 5
+
+8. Missing attribute values: None
+
+9. Attribute information:
+
+Attribute name		Description 													Value type
+1)	Variance	Variance of Wavelet Transformed image is a measure of the ‘spread’ of a distribution about its average value	Continuous
+2)	Skewness	Skewness of Wavelet Transformed image tells about the direction of variation of the lack of symmetry		Continuous
+3)	Kurtosis	Kurtosis of Wavelet Transformed image is a parameter that describes the peakedness of the distribution		Continuous
+4)	Entropy		Entropy of image is the measure of disorder or uncertainty							Continuous
+5)	Class		Class label contains two values (0 & 1), where 0 represents genuine banknotes, and 1 represents fake banknotes	Integer
