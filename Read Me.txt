@@ -7,7 +7,7 @@ Citation Request:
 
 2. Introduction: 
 
-	It employs 3 classification algorithms; K-Nearest Neighbor, Artificial Neural Network, and Azure Machine Learning Designer 
+	It employs 2 classification algorithms; K-Nearest Neighbor and Artificial Neural Network  
 	to build models that predicts whether a banknote is authentic or forged given a series of extracted measures
 	(Variance, Skewness, Kurtosis, and Entropy) from a Wavelet Transformed images of both types of banknote.
 
